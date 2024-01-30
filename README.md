@@ -8,16 +8,10 @@ This research builds on top of the LCDB repository, which can be found [here](ht
 **Author:** Dinu Gafton *(D.Gafton@student.tudelft.nl)*
 
 ### 1. Install dependencies
-To install dependencies, run the following commands. Python 3.9 and Pip are required to run the experiments. 
-
-**Note:** You need to be in the root of the repository as cd to run the commands.
-```bash
-pip install lcdb
-pip install func-timeout
-```
+Python 3.9, Anaconda and Pip are required to run the experiments. Run the first cell of any Experiment notebook to install all the packages used in the project. Run it ONLY the first time or whenever you encounter errors while importing modules.
 
 
 ### 2. Running the Experiments
-To run the experiments, first open the Jupyter Notebook file in any IDE of your choice (i.e PyCharm). Simply run the cells in the notebook to get the experimental results. If you encounter errors while importing modules, try to install the models through the IDE.
+To run the experiments, first open the Jupyter Notebook file in any IDE of your choice (i.e PyCharm) or in any browser using Anaconda. Simply run the cells in the notebook to get the experimental results.
 
-**Note:** Running experiment 3 requires access to the algorithm of Codrin Socol, found [here](https://github.com/CodrinSocol/cse3000-research-project). The results be replicated by re-running Experiment3.ipynb and comparing the output to the results of Codrin Socol, found in file "Socol_algorithm_results.csv". 
+**Note:** Running experiment 3 requires access to the algorithm of Codrin Socol, found [here](https://github.com/CodrinSocol/cse3000-research-project). The results can be replicated by re-running Experiment3.ipynb and comparing the output to the results of Codrin Socol, found in file "Socol_algorithm_results.csv". 
